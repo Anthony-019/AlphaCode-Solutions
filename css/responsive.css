@@ -1,0 +1,193 @@
+
+/* Media Queries for Responsiveness ABOUT*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header nav ul li {
+        transform: translateX(-7vh);
+        margin: 2px;
+    }
+    header nav ul li a {
+        font-size: 12px;
+        margin: 3px;
+    }
+
+    .hero-section {
+        padding: 80px 20px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-section .content {
+        margin-right: 0;
+    }
+}
+
+/* Media Queries for Responsiveness SERVICES */
+@media (max-width: 768px) {
+    .services-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+
+    .services-hero h1 {
+        font-size: 36px;
+    }
+
+    .service-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-hero h1 {
+        font-size: 28px;
+    }
+
+    .service-card {
+        padding: 15px;
+    }
+}
+
+/* Media Queries for Responsiveness BLOG*/
+@media (max-width: 768px) {
+    .blog-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+
+    .blog-hero h1 {
+        font-size: 36px;
+    }
+
+    .blog-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-hero h1 {
+        font-size: 28px;
+    }
+
+    .blog-card {
+        padding: 15px;
+    }
+}
+
+/* Media Queries for Responsiveness TERMS*/
+@media (max-width: 768px) {
+    .terms-hero h1 {
+        font-size: 36px;
+    }
+
+    .terms-content {
+        padding: 30px 20px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .terms-hero h1 {
+        font-size: 28px;
+    }
+
+    .terms-content {
+        padding: 20px 10px;
+    }
+}
+
+/* Media Queries for Responsiveness CONTACT*/
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    .contact-hero h1 {
+        font-size: 36px;
+    }
+
+    .contact-form h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-hero h1 {
+        font-size: 28px;
+    }
+
+    .contact-form {
+        padding: 20px 10px;
+    }
+}
+
+/* Media Queries for Responsiveness TESTIMONIALS*/
+@media (max-width: 768px) {
+    .testimonials-hero h1 {
+        font-size: 36px;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonials-hero h1 {
+        font-size: 28px;
+    }
+
+    .testimonials-hero p {
+        font-size: 16px;
+    }
+}
+/* Media Queries for Reponsiveness AlphaCode Team */
+@media (max-width: 768px) {
+    .ourteam .family1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info-box:hover img{
+        transform: scale(1);
+    }
+}
+/* Media Queries for Responsiveness PRIVACY*/
+@media (max-width: 768px) {
+    .privacy-policy-hero h1 {
+        font-size: 36px;
+    }
+
+    .privacy-policy-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .privacy-card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .privacy-policy-hero h1 {
+        font-size: 28px;
+    }
+
+    .privacy-policy-hero p {
+        font-size: 16px;
+    }
+}
