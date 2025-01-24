@@ -125,6 +125,27 @@
         padding: 20px 10px;
     }
 }
+/* Media Queries for Responsiveness TESTIMONIALS*/
+@media (max-width: 768px) {
+    .portfolio-hero h1 {
+        font-size: 36px;
+    }
+
+    .portfolio-gallery {
+        height: 120px;
+    }
+
+    .portfolio-item {
+        width: 90%;
+    }
+    .portfolio-item img{
+        
+    }
+}
+
+@media (max-width: 480px) {
+   
+}
 
 /* Media Queries for Responsiveness TESTIMONIALS*/
 @media (max-width: 768px) {
